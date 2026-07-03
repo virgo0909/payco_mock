@@ -1,0 +1,12 @@
+# 원본 데이터·변환 도구는 공개 배포에서 제외
+../Payco_Mock/
+PAYCO_Payment_*.xlsx
+export_payco.py
+crop_assets.py
+__pycache__/
+*.pyc
+data.json.bak*
+
+# 로컬 전용(배포/커밋 제외)
+.claude/
+.superpowers/
